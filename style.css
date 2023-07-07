@@ -14,7 +14,7 @@ body {
     background-color: aqua;
     height: 80px;
 
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,6 +102,44 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: ;
 
+}
+
+footer {
+    background-color: aqua;
+
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+
+.socialicon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialicon a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: wheat;
+    border-radius: 50%;
+}
+
+.socialicon a i {
+    font-size: 20px;
+    color: black;
+    opacity: 0.8;
+
+}
+
+.socialicon a:hover {
+    font-size: 25px;
+    opacity: 1;
 }
